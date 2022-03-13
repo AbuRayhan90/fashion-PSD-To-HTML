@@ -1,0 +1,340 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1200px) {
+
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.homepage-slide .owl-item {
+		width: 100% !important;
+		overflow: hidden;
+	}
+	.homepage-slide .single-slide-item img {
+		left: 40%;
+	}
+	.homepage-slide .slide-text-tablecell {
+	padding-left: 10%;
+}
+.homepage-slide-wrap .owl-controls.clickable, .homepage-slide-wrap .owl-controls.clickable {
+	display: inline-block !important;
+}
+.big-menu li a {
+	padding-top: 111px;
+	font-size: 38px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+	.homepage-slide .single-slide-item img {
+		left: 10%;
+	}
+	.homepage-slide .slide-text-tablecell {
+	padding-left:3%;
+}
+
+
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+	.homepage-slide .owl-item {
+		width: 100% !important;
+		overflow: hidden;
+	}
+	.homepage-slide .single-slide-item img {
+		left: 35%;
+	}
+	.homepage-slide .slide-text-tablecell {
+	padding-left:9%;
+}
+
+.product-promotions .owl-wrapper{
+	width: 100% !important;
+}
+.product-promotions .owl-item:nth-child(2){
+	display: none;
+}
+.product-promotions .owl-item:nth-child(3){
+	display: none;
+}
+
+.product-promotions .owl-pagination {
+	display: none;
+}
+.product-promotions .owl-item {
+	width: 100% !important;
+	overflow: hidden;
+}
+.promo-content {
+	padding: 30px;
+	line-height: 1.8;
+	text-align: justify;
+}
+.promo-content span.year-text {
+	left: 41%;
+}
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.homepage-slide .owl-item {
+		width: 100% !important;
+		overflow: hidden;
+	}
+	.homepage-slide .single-slide-item img {
+		left: 30%;
+	}
+	.homepage-slide .slide-text-tablecell {
+		padding-left: 12%;
+		font-size: 80px;
+		line-height: 51px;
+	}
+.homepage-slide-wrap .owl-controls.clickable, .homepage-slide-wrap .owl-controls.clickable {
+	display: inline-block !important;
+}
+.header_top_area a {
+	padding: 12px;
+}
+
+.big-menu li a {
+	padding-top: 106px;
+	font-size: 26px;
+}
+.single-product-item {
+	margin-bottom: 10px;
+	height: 210px;
+}
+.single-product-item:nth-child(2) {
+	height: 430px;
+}
+.single-product-item {
+	background-size: contain;
+}
+.products-area {
+	padding-top: 35px;
+}
+.product-promotions .owl-wrapper{
+	width: 100% !important;
+}
+.product-promotions .owl-item:nth-child(2){
+	display: none;
+}
+.product-promotions .owl-item:nth-child(3){
+	display: none;
+}
+.promo-content span.year-text {
+	left: 41%;
+}
+.product-promotions .owl-pagination {
+	display: none;
+}
+.product-promotions .owl-item {
+	width: 100% !important;
+	overflow: hidden;
+}
+.promo-content {
+	padding: 30px;
+	line-height: 1.8;
+	text-align: justify;
+}
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.homepage-slide .owl-item {
+		width: 100% !important;
+		overflow: hidden;
+	}
+	.homepage-slide .single-slide-item img {
+		left: 20%;
+	}
+	.homepage-slide .slide-text-tablecell {
+		padding-left: 6%;
+		font-size: 73px;
+		line-height: 44px;
+	}
+.homepage-slide-wrap .owl-controls.clickable, .homepage-slide-wrap .owl-controls.clickable {
+	display: inline-block !important;
+}
+	.header_top_area ul {
+		display: none;
+	}
+	.header_left.text-right {
+	display: none;
+}
+.off-canvas-menu {
+	width: 40%;
+}
+.big-menu li a {
+	padding: 9px;
+	padding-top: 61px;
+	font-size: 20px;
+}
+.products-area {
+	padding-top: 40px;
+}
+.single-product-item, .single-product-item:nth-child(2), .single-product-item:nth-child(4), .single-product-item:nth-child(9) {
+	width: 100%;float: none;
+}
+
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.homepage-slide-wrap {
+		height: 50%;
+	}
+	.homepage-slide .owl-item {
+		padding-left: 4%;
+	}
+	.homepage-slide .single-slide-item img {
+		display: none;
+	}
+	.homepage-slide .slide-text-tablecell {
+		padding-left: 4%;
+		font-size: 49px;
+		line-height: 26px;
+	}
+.homepage-slide-wrap .owl-controls.clickable, .homepage-slide-wrap .owl-controls.clickable {
+	display: inline-block !important;
+}
+	.header_top_area ul {
+		display: none;
+	}
+	.header_left.text-right {
+	display: none;
+}
+.off-canvas-menu {
+	width: 40%;
+}
+.header_top_area {
+	position: relative;
+	background: #bd5d86;
+}
+.header_top_area .menu_trigger span {
+	background: #FFF;
+}
+.big-menu li:nth-child(2), .big-menu li:nth-child(3) {
+	width: auto;
+}
+.big-menu li {
+	float: none;
+	width: auto;
+}
+.big-menu li a {
+	text-align: center;
+	padding: 30px;
+	font-size: 31px;
+}
+.products-area {
+	padding-top: 20px;
+}
+.single-product-item, .single-product-item:nth-child(2), .single-product-item:nth-child(4), .single-product-item:nth-child(9) {
+	width: 100%;float: none;
+}
+
+.promo-content {
+	padding: 22px;
+	line-height: 1.8;
+	text-align: justify;
+}
+.promo-bg {
+	padding-top: 15px;
+}
+
+
+.hover-btn a:hover {
+	color: #16d22b;
+}
+.promo-title h2 {
+	color: #EC6A9A;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 29px;
+}
+
+.promo-content span.year-text {
+	top: 19%;
+	left: 68%;
+	font-size: 44px;
+}
+.brand-images {
+	margin: 25px 0 24px 0;
+}
+
+.product-promotions .owl-pagination {
+	position: relative;
+	display: inline-block;
+	left: 42%;
+	top: 11px;
+}
+.product-promotions .owl-pagination div {
+	margin-right: 10px;
+}
+.footer-menu ul {
+	text-align: center;
+}
+.footer-menu li {
+	padding: 20px;
+}
+.email-subcribe-form input[type="email"] {
+	width: 277px;
+	margin-bottom: 14px;
+	font-size: 14px;
+}
+.social-link a {
+	padding: 6px 18px;
+	display: inline-block;
+	font-size: 109%;
+}
+.footer-area .text-right {
+	text-align: center !important;
+}
+
+
+}
